@@ -13,4 +13,16 @@ class Movies
         $this->genre = $_genre;
         $this->director = $_director;
     }
+    public function GetTitle()
+    {
+        return $this->title;
+    }
+    public function GetYear()
+    {
+        return $this->year;
+    }
+    public function GetGenre()
+    {
+        return $this->genre;
+    }
 }
