@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php
+
+require_once __DIR__ . '/models/Movies.php';
+
+
+
+?>
 <html lang="en">
 
 <head>
@@ -13,6 +20,7 @@
         <h1>
             PHP OOP 1
         </h1>
+
     </main>
 </body>
 
